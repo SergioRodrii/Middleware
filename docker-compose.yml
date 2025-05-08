@@ -1,0 +1,49 @@
+version: '3.8'
+services:
+  gateway:
+    build: ./gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - tienda-service
+      - inventario-service
+      - ventas-service
+      - contabilidad-service
+      - proveedores-service
+      - transportador-service
+
+  tienda-service:
+    build: ./tienda-service
+    container_name: tienda-service
+    ports:
+      - "8081:8081"
+
+  inventario-service:
+    build: ./inventario-service
+    container_name: inventario-service
+    ports:
+      - "8082:8082"
+
+  ventas-service:
+    build: ./ventas-service
+    container_name: ventas-service
+    ports:
+      - "8083:8083"
+
+  contabilidad-service:
+    build: ./contabilidad-service
+    container_name: contabilidad-service
+    ports:
+      - "8084:8084"
+
+  proveedores-service:
+    build: ./proveedores-service
+    container_name: proveedores-service
+    ports:
+      - "8085:8085"
+
+  transportador-service:
+    build: ./transportador-service
+    container_name: transportador-service
+    ports:
+      - "8086:8086"

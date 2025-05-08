@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombreProducto": "Refrigerador Whirlpool",
+    "precio": 1250.00,
+    "cantidad": 0
+  },
+  {
+    "id": 2,
+    "nombreProducto": "Licuadora Ninja",
+    "precio": 99.99,
+    "cantidad": 0
+  },
+  {
+    "id": 3,
+    "nombreProducto": "Aire acondicionado LG",
+    "precio": 1350.00,
+    "cantidad": 0
+  },
+  {
+    "id": 4,
+    "nombreProducto": "Purificador de aire",
+    "precio": 230.00,
+    "cantidad": 0
+  },
+  {
+    "id": 5,
+    "nombreProducto": "Hervidor eléctrico",
+    "precio": 55.00,
+    "cantidad": 0
+  },
+  {
+    "id": 6,
+    "nombreProducto": "Televisor TCL 65\"",
+    "precio": 799.00,
+    "cantidad": 0
+  },
+  {
+    "id": 7,
+    "nombreProducto": "Lava vajillas Bosch",
+    "precio": 670.00,
+    "cantidad": 0
+  },
+  {
+    "id": 8,
+    "nombreProducto": "Radiador eléctrico",
+    "precio": 145.00,
+    "cantidad": 0
+  },
+  {
+    "id": 9,
+    "nombreProducto": "Cámara GoPro",
+    "precio": 299.99,
+    "cantidad": 0
+  },
+  {
+    "id": 10,
+    "nombreProducto": "Batidora planetaria",
+    "precio": 180.00,
+    "cantidad": 0
+  },
+  {
+    "id": 11,
+    "nombreProducto": "Centro de lavado",
+    "precio": 1500.00,
+    "cantidad": 0
+  },
+  {
+    "id": 12,
+    "nombreProducto": "Proyector Epson",
+    "precio": 500.00,
+    "cantidad": 0
+  },
+  {
+    "id": 13,
+    "nombreProducto": "Molinillo de café",
+    "precio": 75.00,
+    "cantidad": 0
+  },
+  {
+    "id": 14,
+    "nombreProducto": "Horno tostador",
+    "precio": 59.99,
+    "cantidad": 0
+  },
+  {
+    "id": 15,
+    "nombreProducto": "Set de cuchillas eléctricas",
+    "precio": 45.00,
+    "cantidad": 0
+  },
+  {
+    "id": 16,
+    "nombreProducto": "Deshumidificador",
+    "precio": 299.99,
+    "cantidad": 0
+  },
+  {
+    "id": 17,
+    "nombreProducto": "Licuadora industrial",
+    "precio": 280.00,
+    "cantidad": 0
+  },
+  {
+    "id": 18,
+    "nombreProducto": "Cafetera industrial",
+    "precio": 460.00,
+    "cantidad": 0
+  },
+  {
+    "id": 19,
+    "nombreProducto": "Cámara vigilancia WiFi",
+    "precio": 120.00,
+    "cantidad": 0
+  },
+  {
+    "id": 20,
+    "nombreProducto": "Extractor de grasa",
+    "precio": 350.00,
+    "cantidad": 0
+  }
+]
