@@ -4,7 +4,7 @@ import httpx
 from app.models.Models import FacturaVenta, FacturaCompra
 
 FACTURA_CLIENTE_FILE = "resources/facturas_clientes.json"
-FACTURA_PROVEEDOR_FILE = "resources/facturasProveedor.json"
+FACTURA_PROVEEDOR_FILE = "resources/facturas_proveedores.json"
 
 async def generar_factura_service(factura: FacturaVenta) -> FacturaVenta:
     # Calcular el total
