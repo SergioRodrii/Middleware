@@ -5,7 +5,6 @@ from app.models.Models import Producto, ActualizarProductoDTO
 
 router = APIRouter()
 
-# Endpoint para cargar los productos del inventario
 @router.get("/cargarProductos", response_model=List[Producto])
 def cargar_productos():
     try:
@@ -13,7 +12,6 @@ def cargar_productos():
     except RuntimeError as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Endpoint para actualizar el inventario
 @router.put("/actualizarInventario/{numero}", response_model=List[Producto])
 def actualizar_inventario(productos_actualizar: List[ActualizarProductoDTO], numero: int):
     try:
@@ -21,7 +19,6 @@ def actualizar_inventario(productos_actualizar: List[ActualizarProductoDTO], num
     except RuntimeError as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Endpoint para cargar los requerimientos de productos
 @router.get("/cargarRequerimientosProductos", response_model=List[Producto])
 def cargar_requerimientos_productos():
     try:
