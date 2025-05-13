@@ -3,14 +3,17 @@ from typing import List
 from app.models.Models import Servicio
 import os
 
-DB_PATH = "resources/servicios.json"
+DB_PATH = "resources/facturas_transporte.json"
 
 def cargar_servicios() -> List[Servicio]:
     if not os.path.exists(DB_PATH):
         return []
     with open(DB_PATH, "r") as file:
-        data = json.load(file)
-        return [Servicio(**item) for item in data]
+        try:
+            data = json.load(file)
+            return [Servicio(**item) for item in data]
+        except json.JSONDecodeError:
+            return []
 
 def guardar_servicio(servicio: Servicio):
     servicios = cargar_servicios()
